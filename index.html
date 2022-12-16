@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/Hexodo_icon.png">
+    <title>Hexodo | Inicio</title>
+</head>
+<body>
+    <!-- encabezado -->
+    <header class="container-fluid bg-secondary d-flex justify-content-center">
+        <p class="text-white mb-0 p-2 fs-6">Soluciones software a tu medida.</p>
+    </header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top pb-2">
+        <div class="container-fluid">
+          <a class="navbar-brand"data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><img src="img/Hexodo_icon.png" alt="hexodo_icon" width="40" height="34"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="desarrollo.html">Desarrollo de sotfware</a></li>
+                  <li><a class="dropdown-item" href="analisis_datos.html">Analisis de datos</a></li>
+                  <li><a class="dropdown-item" href="seguridad.html">Seguridad Informatica</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="servicios.html">Otros servicios</a></li>
+                </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- offcanvas -->
+      <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inicio</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <h1 class="p-3 fs-4 text-center">Hexodo Software</h1>
+            <p class="p-3 fs-6 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Vel necessitatibus iure doloribus magni labore atque odit, 
+              impedit magnam rem, iste sit deleniti deserunt incidunt, 
+              quae facere nihil accusamus aspernatur officia blanditiis adipisci quos vitae. Qui molestias veritatis aut assumenda libero!</p>
+          </div>
+        </div>
+        <p class="copyright text-center">&copy;Hexodo Software</p>
+      </div>
+      <!-- Intro -->
+      <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <img src="img/Hexodo_logo.png" alt="hexodo" width="300" height="210">
+        <h1 class="p-3 fs-2">Empresa dedicada a servicios<b class="text-success"> Informaticos</b></h1>
+        <p class="p-3 fs-4"><b class="text-success">Hexodo Software </b>es una startup especializada en brindar el mejor servicio
+        posible en temas como el desarrollo de software y el analisis de datos enfocados en las <b class="text-success">Pymes</b></p>
+      </section>
+      <!-- Slide -->
+      <div id="carouselExampleIndicators" class="carousel carousel-dark slide mt-5" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/slide3.jpg" class="d-block w-100" alt="anal">
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/slide2.jpg" class="d-block w-100" alt="desarrollo">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Servicios -->
+      <section class="container-fluid">
+        <h1 class=" mt-5 p-3 fs-2 text-center">Nuestros Principales Servicios</h1>
+        <div class="row w-75 mx-auto servicio-fila">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap text-center">
+            <img src="img/desarrollo-software-300x210.png" alt="desarrollo" width="180" height="160">
+            <a href="desarrollo.html" class="link-dark"><h3 class="fs-4 mt-4 px-4 pb-1 text-dark">Desarrollo Software</h3></a>
+            <p class="px-4 fs-5">Desarrollo de softwares personalizados para cada <span class="text-success">Cliente</span></p>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap text-center">
+            <img src="img/seguridad_preview_rev_1.png" alt="analisis de datos" width="180" height="160">
+            <a href="analisis_datos.html" class="link-dark"><h3 class="fs-4 mt-4 px-4 pb-1 text-dark">Seguridad Informatica</h3></a>
+            <p class="px-4 fs-5 text-left">Consultorias en temas de seguridad informatica para <span class="text-success">Empresa</span> o <span class="text-success">Personas</span></p>          
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap text-center">
+            <img src="img/analisis-de-datos_preview_rev_1.png" alt="analisis de datos" width="180" height="160">
+            <a href="analisis_datos.html" class="link-dark"><h3 class="fs-4 mt-4 px-4 pb-1 text-dark">Analisis Datos</h3></a>
+            <p class="px-4 fs-5">Analisis de datos para mejorar las toma de deciones de tu <span class="text-success">Empresa</span></p>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap text-center">
+            <img src="img/otros-servicios.png" alt="analisis de datos" width="180" height="160">
+            <a href="servicios.html" class="link-dark"><h3 class="fs-4 mt-4 px-4 pb-1 text-dark">Otros servicios</h3></a>
+            <p class="px-4 fs-5 text-left">Consultorias y asesorias en temas de informatica y afines para <span class="text-success">Empresa</span> o <span class="text-success">Personas</span></p>        
+          </div>
+        
+      </section>
+      <!-- Nosotros -->
+      <section>
+        <h1 class=" mt-5 border-top border-3"></h1>
+        <div class="w-50 m-auto text-center" id="equipo">
+          <h1 class="p-3 fs-2 mt-5">En Hexodo se buscan resultados <b class="text-success">Eficientes </b> e <b class="text-success">Innovadores</b></h1>
+          <p class="p-3 fs-4 mb-5">Buscamos siempre entregar <b class="text-success">Valor</b> en nuestros servicios, acompañando en todo momento al <b class="text-success">Cliente</b>
+          para su maxima satisfaccion</p>
+        </div>
+      </section>
+      <!-- Pie de pagina -->
+      <footer>
+        <div class="container-fluid">
+          <div class="row p-5 pb-2 bg-dark text-white text-left">
+  
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h3">Hexodo Software</p>
+              <p class="text-secondaty text-left">Cali, Colombia</p>
+              <img src="img/Hexodo_icon.png" alt="desarrollo" width="180" height="160">
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3 aling-elements">
+              <p class="h5 mb-3 text-left">Servicios</p>
+              <div class="mb-2">
+                <a href="desarrollo.html" class="text-secondary text-decoration-none">Desarrollo de Software</a>
+              </div>
+              <div class="mb-2">
+                <a href="analisis_datos.html" class="text-secondary text-decoration-none">Analisis de Datos</a>
+              </div>
+              <div class="mb-2">
+                <a href="seguridad.html" class="text-secondary text-decoration-none">Seguridad Informatica</a>
+              </div>
+              <div class="mb-2">
+                <a href="servicios.html" class="text-secondary text-decoration-none">Otros Servicios</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h5 mb-3 text-left">Enlaces</p>
+              <div class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">Terminos & Condiciones</a>
+              </div>
+              <div class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">Politica de Privacidad</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h5 mb-3 text-left">Otros Contactos</p>
+              <div class="mb-2">
+                <a href="#" class=" text-secondary text-decoration-none"><i class="bi bi-instagram"></i> Instagram</a>
+              </div>
+              <div class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none"><i class="bi bi-twitter"></i> Twitter</a>
+              </div>
+              <div class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none"><i class="bi bi-github"></i> Github</a>
+              </div>
+            </div>
+            <p class="text-center text-white mt-4">Hexodo Software &copy; Todos Los derechos Reservados 2022 </p>
+          </div>
+        </div>
+      </footer>
+
+<!-- script bootstrap -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
